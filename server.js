@@ -6,4 +6,5 @@ app.get('/', function(req,res) {
 
 const server = require('http').Server(app);
 io = require('socket.io')(server);
+users={};
 server.listen(3000);
